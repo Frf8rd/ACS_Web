@@ -7,6 +7,7 @@
     <title>Platformă de Freelancing</title>
 
     <link rel="stylesheet" href="../styles//style.css">
+    <script src="../scripts/script.js" defer></script>
 </head>
 
 <body>
@@ -121,6 +122,33 @@
             </p>
         </section>
 
+    <!-- Sarcina cu java script-->
+    <section id="adauga-proiect">
+            <h2>Adaugă un proiect</h2>
+
+            <form id="projectForm">
+
+                <label for="projectTitle">Titlu:</label>
+                <input
+                    type="text"
+                    id="projectTitle"
+                    placeholder=""
+                    required
+                >
+
+                <label for="projectDescription">Descriere:</label>
+                <textarea
+                    id="projectDescription"
+                    placeholder=""
+                    required
+                ></textarea>
+
+                <button type="submit">Adaugă</button>
+
+            </form>
+
+            <div id="projectsContainer"></div>
+        </section>
 
         <section id="contact">
             <h2>Contactează-ne</h2>
