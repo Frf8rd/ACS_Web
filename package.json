@@ -1,0 +1,21 @@
+{
+  "name": "acs_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frf8rd/ACS_Web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Frf8rd/ACS_Web/issues"
+  },
+  "homepage": "https://github.com/Frf8rd/ACS_Web#readme"
+}
